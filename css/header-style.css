@@ -1,0 +1,73 @@
+header {
+    padding: 0.8rem;
+}
+
+.display-flex {
+    display: flex;
+    gap: 2rem;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    width: 100px;
+    object-fit: cover;
+}
+
+.nav-menu li {
+    padding: 0.4rem 0.8rem;
+    transition: var(--4s);
+}
+
+.nav-menu li:hover,
+.acess-area:hover {
+    background-color: var(--color-1);
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.6rem 0.8rem;
+}
+
+.user-area {
+    display: flex;
+    gap: 3rem;
+}
+
+.user-area img {
+    width: 30px;
+    height: 30px;
+}
+
+.acess-area {
+    background-color: white;
+    border-radius: 0.2rem;
+    gap: 1rem;
+
+    /* hover anim */
+    padding: 0.6rem;
+    transition: 0.4s;
+
+}
+
+
+@media(max-width:960px) {
+
+    .display-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .display-flex nav {
+        display: flex;
+        
+    }
+
+
+    .nav-menu li {
+        padding: 0.8rem 0.6rem;
+        transition: var(--4s);
+        background-color: red;
+    }
+    
+}

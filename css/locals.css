@@ -1,0 +1,40 @@
+#locals {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.section-header h1 {
+    font-size: 4rem;
+    margin-left: 40px;
+
+}
+
+.zonas-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 60px;
+}
+
+#zona-card {
+    height: 260px;
+    width: 260px;
+    display: grid;
+    /* verical */
+    align-items: center;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--color-3);
+    border-radius: 20px;
+    transition: var(--2s);
+}
+
+
+#zona-card:hover {
+background-color: var(--color-5);
+    color: var(--color-2);
+}

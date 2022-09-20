@@ -1,0 +1,91 @@
+
+#introduction {
+    display: flex;
+    margin: 2rem 0;
+    gap: 8rem;
+ 
+}
+
+.introduction-content {
+    display: grid;
+    
+}
+
+.introduction-content h1 {
+    font-size: 3.8rem;
+    max-width: 34ch;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.introduction-content p {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    color: gray;
+    max-width: 70ch;
+}
+
+.btns-containers {
+    display: flex;
+    gap: 2rem;
+}
+
+.custom-btn,
+.custom-btn-white {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-1);
+
+}
+
+.custom-btn img,
+.custom-btn-white img {
+    /* margin-left: 12px; */
+    width: 1.6rem;
+}
+
+.custom-btn h3,
+.custom-btn-white h3 {
+    max-width: 14ch;
+    text-align: center;
+    font-size: 0.8rem;
+    color: lightgray;
+
+}
+
+.custom-btn-white {
+    background-color: white;
+    transition: background-color 0.3s, ;
+}
+
+.custom-btn-white h3 {
+    color: var(--color-1);
+}
+
+.introduction-img{
+    position: relative;
+}
+.introduction-img img {
+
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+}
+
+#img-food{
+height: 100px;
+width: 100px;
+border:solid 3px white;
+position: absolute;
+top:35px;
+border-radius: 100%;
+}
